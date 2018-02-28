@@ -13,17 +13,9 @@ By using this tool, development using NEM by PHP becomes easy.
 
   Clone this repository.
 
- `git clone https://github.com/tomotomo9696/NEMTools_PHP`
+ `git clone --recursive https://github.com/tomotomo9696/NEMTools_PHP`
 
-2. ライセンス不明のライブラリを使用しているため、これを手動で clone します。
-
- This tool uses a license unknown library. Therefore, clone that library manually.
-
- `cd salt`
-
- `git clone https://github.com/devi/Salt`
-
-3. あとは NEMToolsLoadAll.php を require_once します。
+2. あとは NEMToolsLoadAll.php を require_once します。
 
  Please write `require_once("{path}/NEMToolsLoadAll.php");` in your project.
 
